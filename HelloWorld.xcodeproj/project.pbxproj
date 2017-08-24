@@ -13,6 +13,7 @@
 		E95B6B481F4C6BBC001BEFDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E95B6B471F4C6BBC001BEFDC /* Assets.xcassets */; };
 		E95B6B4B1F4C6BBC001BEFDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95B6B491F4C6BBC001BEFDC /* LaunchScreen.storyboard */; };
 		E95B6B531F4DDB27001BEFDC /* NetworkCallHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95B6B521F4DDB27001BEFDC /* NetworkCallHandler.swift */; };
+		E9B199C21F4F353700768069 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B199C11F4F353700768069 /* TableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E95B6B4A1F4C6BBC001BEFDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E95B6B4C1F4C6BBC001BEFDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E95B6B521F4DDB27001BEFDC /* NetworkCallHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkCallHandler.swift; sourceTree = "<group>"; };
+		E9B199C11F4F353700768069 /* TableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				E95B6B401F4C6BBC001BEFDC /* AppDelegate.swift */,
 				E95B6B421F4C6BBC001BEFDC /* ViewController.swift */,
+				E9B199C11F4F353700768069 /* TableCell.swift */,
 				E95B6B441F4C6BBC001BEFDC /* Main.storyboard */,
 				E95B6B471F4C6BBC001BEFDC /* Assets.xcassets */,
 				E95B6B491F4C6BBC001BEFDC /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			files = (
 				E95B6B431F4C6BBC001BEFDC /* ViewController.swift in Sources */,
 				E95B6B411F4C6BBC001BEFDC /* AppDelegate.swift in Sources */,
+				E9B199C21F4F353700768069 /* TableCell.swift in Sources */,
 				E95B6B531F4DDB27001BEFDC /* NetworkCallHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +307,7 @@
 				E95B6B511F4C6BBC001BEFDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
